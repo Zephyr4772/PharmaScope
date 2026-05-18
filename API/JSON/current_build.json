@@ -1,0 +1,24 @@
+{
+    "built_at": "20260515_163530",
+    "record_count": 195605,
+    "build_duration_seconds": 7.19,
+    "output_size_mb": 363.92,
+    "enrichment_sources": {
+        "base_catalog": "base_catalog.json",
+        "openfda_events": true,
+        "openfda_recalls": true,
+        "nppa_prices": true,
+        "cdsco": true
+    },
+    "match_stats": {
+        "total_drugs": 195605,
+        "enriched_drugs": 21557,
+        "match_rate_percent": 11.02,
+        "layer_breakdown": {
+            "layer3_safety": 20099,
+            "recent_recalls": 20099,
+            "official_price_ceiling": 21379,
+            "cdsco_approval": 21379
+        }
+    }
+}

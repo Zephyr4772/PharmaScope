@@ -1,0 +1,16 @@
+# Node modules
+node_modules/
+dist/
+.env
+
+# Python
+__pycache__/
+*.pyc
+
+# Large JSON files and backups
+API/JSON/active_db.json
+API/JSON/merged_medicines_reviews.json
+API/JSON/backups/
+data/
+highway/output/
+.vs/
